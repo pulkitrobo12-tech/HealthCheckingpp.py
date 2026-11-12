@@ -15,7 +15,7 @@ if age>18:
     st.write('You are underweight , please change your diet and include more nutrient rich food .')
     st.warning('Please visit a dietition follow his/her orders')
   elif bmi>=18 and bmi<25:
-    st.write('You are healthy please maintain your lifestyle')
+    st.success('You are healthy please maintain your lifestyle')
   elif bmi>=25 and bmi<=29.9:
     st.write('You are slightly overweight, please change your diet, reduce junk food, eat more healthy nutrient rich food and exercise daily')
     st.write(' ')
