@@ -6,7 +6,7 @@ o=st.number_input('Enter your oxygen level')
 bp=st.number_input('Enter your Blood Pressure')
                    
 
-bmi=float(a/(h*h),2)
+bmi =round(a/(h*h), 2)
 st.write('your bmi is',bmi)
 
 
