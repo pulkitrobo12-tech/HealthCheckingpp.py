@@ -37,7 +37,7 @@ if age>18:
     st.write('You are severly obese and in a lot of risk')
     st.warning('You should immediately visit and talk to a good doctor')
     st.warning('Get a full health checkup immediately')
-    st.warning('You must focus on your health or else you will face severe problems
+    st.warning('You must focus on your health or else you will face severe problems')
     st.warning('You should undergo surgery to reduce weight')
     st.error('You are in critical risk for heart diseases, cardiac diseases')
 
