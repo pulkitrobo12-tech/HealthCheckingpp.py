@@ -26,6 +26,11 @@ if age>18:
      st.warning('Please visit a dietition and follow his/her orders')
      st.warning('Get a full health checkup from a certified doctor')
      st.error('High Opesity can cause Heart Problems, Type 2 Diabetes and other harmful problems')
-  
+  elif bmi>35 and bmi<39:
+     st.write('You are Class-2 Obese, you must reduce your weight, focus on eating less calories and exercise daily without fail. You have to stop eating junk food')
+    st.write(' ')
+     st.warning('Please visit a dietition and follow his/her orders')
+     st.warning('Get a full health checkup from a certified doctor')
+     st.error('High Opesity can cause Heart Problems, Type 2 Diabetes and other harmful problems')
 
 
