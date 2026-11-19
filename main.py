@@ -1,44 +1,17 @@
 import streamlit as st
 st.title('Daily Health Checkup')
-h=st.number_input('Enter your height in m')
-a=st.number_input('Enter your weight in kg')
-o=st.number_input('Enter your oxygen level')
-bp=st.number_input('Enter your Blood Pressure')
-age=st.number_input('Enter your age')
+
+
+st.text_input('enter your name')
+st.number_input('enter your age')
+st.number_input('enter the number of glasses you drink')
+st.number_input('enter the number of minuter you exercise')
+st.number_input('enter your screen time in hours')
+st.selectbox("Choose your mood",["Happy", "Stressed", "Sad","Energetic"],)
+
+
+
                    
 
-bmi =round(a/(h*h), 2)
-st.write('your bmi is',bmi)
-
-if age>18:
-  if bmi<18:
-    st.write('You are underweight , please change your diet and include more nutrient rich food .')
-    st.warning('Please visit a dietition follow his/her orders')
-  elif bmi>=18 and bmi<25:
-    st.success('You are healthy please maintain your lifestyle')
-  elif bmi>=25 and bmi<=29.9:
-    st.write('You are slightly overweight, please change your diet, reduce junk food, eat more healthy nutrient rich food and exercise daily')
-    st.write(' ')
-    st.warning('Please visit a dietition and follow his/her orders')
-  elif bmi>30 and bmi<=34.9:
-     st.write('You are Class-1 Obese, please try to reduce your weight, eat less-calorie healthy food, increase physical activity and stop eating junk food')
-     st.write(' ')
-     st.warning('Please visit a dietition and follow his/her orders')
-     st.warning('Get a full health checkup from a certified doctor')
-     st.error('High Opesity can cause Heart Problems, Type 2 Diabetes and other harmful problems')
-  elif bmi>35 and bmi<39:
-     st.write('You are Class-2 Obese, you must reduce your weight, focus on eating less calories and exercise daily without fail. You have to stop eating junk food')
-     st.write(' ')
-     st.warning('Please visit a dietition and follow his/her orders without fail')
-     st.warning('Please focus on your health or else you will face a lot of problems')
-     st.warning('Get a full health checkup from a certified doctor')
-     st.error('High Opesity can cause Heart Problems, Type 2 Diabetes and other harmful problems')
-  else:
-    st.write('You are severly obese and in a lot of risk')
-    st.warning('You should immediately visit and talk to a good doctor')
-    st.warning('Get a full health checkup immediately')
-    st.warning('You must focus on your health or else you will face severe problems')
-    st.warning('You should undergo surgery to reduce weight')
-    st.error('You are in critical risk for heart diseases, cardiac diseases')
 
 
