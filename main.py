@@ -4,10 +4,10 @@ st.title('Daily Health Checkup')
 
 
 n=st.text_input('enter your name')
-a=st.number_input('enter your age')
-g=st.number_input('enter the number of glasses you drink')
-e=st.number_input('enter the number of minutes you exercise')
-sc=st.number_input('enter your screen time in hours')
+a=st.number_input('enter your age',min_value=0)
+g=st.number_input('enter the number of glasses you drink',min_value=0)
+e=st.number_input('enter the number of minutes you exercise',min_value=0)
+sc=st.number_input('enter your screen time in hours',min_value=0.1)
 mood=st.selectbox("Choose your mood",["Happy", "Stressed", "Sad","Energetic"],)
 score=0
 
