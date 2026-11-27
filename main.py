@@ -23,7 +23,7 @@ if a<11:
   if e>=80 and e<=120:
      st.success('your exercise time is good')
   elif e<80:
-     st.warning('your exercise time is less')
+     st.warning('your exercise time is less, it may cause your body to become weak')
   else:
      st.warning('your exercise time is too much, it may give physical exhausation')
 
@@ -56,7 +56,7 @@ elif a>=11 and a<=39:
   if e>=45 and e<=100:
      st.success('your exercise time is good')
   elif e<45:
-     st.warning('your exercise time is less')
+     st.warning('your exercise time is less, it may make your body weak')
   else:
      st.warning('your exercise time is too much, it may give physical exhausation')
 
@@ -89,7 +89,7 @@ else:
   if e>=30 and e<=60:
      st.success('your exercise time is good')
   elif e<30:
-     st.warning('your exercise time is less')
+     st.warning('your exercise time is less, it may make your body weak')
   else:
      st.warning('your exercise time is too much, it may give physical exhausation')
 
