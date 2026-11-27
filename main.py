@@ -144,7 +144,7 @@ else:
     score+score+10
   else:
     st.warning('Talk to someone or play to lighten your mood')
-    score+score+10
+    score=score+10
 
 st.write('   ')
 st.header('Wellness score')
