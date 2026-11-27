@@ -26,7 +26,7 @@ if a<11:
 
   if e>=80 and e<=120:
      st.success('your exercise time is good')
-    score=score+25
+     score=score+25
   elif e<80:
      st.warning('your exercise time is less, it may cause your body to become weak')
      score=score+e/4
