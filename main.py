@@ -147,7 +147,7 @@ else:
     score+score+10
 
 st.write('   ')
-st.subheading('Wellness score')
+st.header('Wellness score')
 st.write('Your wellnedd score is ',score,'/100')
 
    
