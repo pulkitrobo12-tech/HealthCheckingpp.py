@@ -59,10 +59,10 @@ if a<11:
 
 
 elif a>=11 and a<=39:
-  if g<4:
+  if g<5:
     st.error('You are drinking too less glasses, please increase your water intake')
     score=score+g/2+6
-  elif g>=4 and g<=8:
+  elif g>=5 and g<=8:
     st.success('You are drinking ample amount of glasses, please maintain this consistency')
     score=score+25
   else:
