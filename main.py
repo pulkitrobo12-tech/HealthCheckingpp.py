@@ -12,6 +12,12 @@ mood=st.selectbox("Choose your mood",["Happy", "Stressed", "Sad","Energetic"],)
 score=0
 
 
+
+if st.button('Clear All Values'):
+    st.session_state.clear()
+    st.rerun() 
+
+
 if a<11:
   if g<5:
     st.error('You are drinking too less glasses, please increase your water intake')
