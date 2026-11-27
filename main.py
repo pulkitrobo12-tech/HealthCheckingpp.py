@@ -75,10 +75,10 @@ elif a>=11 and a<=39:
      score=score+25
   elif e<45:
      st.warning('your exercise time is less, it may make your body weak')
-    score=score+e/3
+     score=score+e/3
   else:
      st.warning('your exercise time is too much, it may give physical exhausation')
-    score=score+17
+     score=score+17
 
 
   if sc>6:
