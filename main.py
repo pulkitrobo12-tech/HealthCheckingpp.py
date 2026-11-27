@@ -142,7 +142,7 @@ else:
     score=score+25
   elif mood=="Sad":
     st.warning('take some time for yourself, stay happy and try to solve your problems')
-    score+score+10
+    score=score+10
   else:
     st.warning('Talk to someone or play to lighten your mood')
     score=score+10
