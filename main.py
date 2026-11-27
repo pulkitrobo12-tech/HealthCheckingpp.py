@@ -123,6 +123,7 @@ else:
      score=score+e/3.5
   else:
      st.warning('your exercise time is too much, it may give physical exhausation')
+     score=score+17
 
 
   if sc>4:
